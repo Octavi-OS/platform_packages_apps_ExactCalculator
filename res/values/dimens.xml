@@ -41,4 +41,5 @@
     <dimen name="result_padding_end">16dip</dimen>
     <dimen name="result_textsize">28dip</dimen>
 
+    <dimen name="button_padding">9dp</dimen>
 </resources>

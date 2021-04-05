@@ -65,4 +65,7 @@
     <!-- Background color for empty history view. -->
     <color name="empty_history_color">@color/calculator_primary_color</color>
 
+    <!-- Background color for Operator Buttons. -->
+    <color name="op_eq_icon_color">#c41442</color>
+    <color name="operator_bg">#0f000000</color>
 </resources>
