@@ -382,13 +382,13 @@ public class Calculator extends Activity
         KeyMaps.setActivity(this);
 
         mPadViewPager = (ViewPager) findViewById(R.id.pad_pager);
-        mDeleteButton = findViewById(R.id.del);
-        mClearButton = findViewById(R.id.clr);
-        final View numberPad = findViewById(R.id.pad_numeric);
-        mEqualButton = numberPad.findViewById(R.id.eq);
+        mEqualButton = findViewById(R.id.eq);
         if (mEqualButton == null || mEqualButton.getVisibility() != View.VISIBLE) {
             mEqualButton = findViewById(R.id.pad_operator).findViewById(R.id.eq);
         }
+        final View numberPad = findViewById(R.id.pad_numeric);
+        mDeleteButton = numberPad.findViewById(R.id.del);
+        mClearButton = numberPad.findViewById(R.id.clr);
         final TextView decimalPointButton = (TextView) numberPad.findViewById(R.id.dec_point);
         decimalPointButton.setText(getDecimalSeparator());
 
